@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900E293B25D1A5FF00868121 /* Medically.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 900E292525D1A5FE00868121 /* Medically.xcdatamodeld */; };
+		900E293C25D1A5FF00868121 /* Medically.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 900E292525D1A5FE00868121 /* Medically.xcdatamodeld */; };
+		900E293D25D1A5FF00868121 /* MedicallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E292725D1A5FE00868121 /* MedicallyApp.swift */; };
+		900E293E25D1A5FF00868121 /* MedicallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E292725D1A5FE00868121 /* MedicallyApp.swift */; };
+		900E293F25D1A5FF00868121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E292825D1A5FE00868121 /* ContentView.swift */; };
+		900E294025D1A5FF00868121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E292825D1A5FE00868121 /* ContentView.swift */; };
+		900E294125D1A5FF00868121 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E292925D1A5FE00868121 /* Persistence.swift */; };
+		900E294225D1A5FF00868121 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E292925D1A5FE00868121 /* Persistence.swift */; };
+		900E294325D1A5FF00868121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900E292A25D1A5FF00868121 /* Assets.xcassets */; };
+		900E294425D1A5FF00868121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900E292A25D1A5FF00868121 /* Assets.xcassets */; };
+		900E295225D1A68700868121 /* AddNewDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E295125D1A68700868121 /* AddNewDataView.swift */; };
+		900E295325D1A68700868121 /* AddNewDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E295125D1A68700868121 /* AddNewDataView.swift */; };
+		900E295725D1A6BD00868121 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E295625D1A6BD00868121 /* ModelData.swift */; };
+		900E295825D1A6BD00868121 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E295625D1A6BD00868121 /* ModelData.swift */; };
+		900E296325D1ABFF00868121 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E296225D1ABFF00868121 /* ImagePicker.swift */; };
+		900E296425D1ABFF00868121 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E296225D1ABFF00868121 /* ImagePicker.swift */; };
+		900E296A25D1B16B00868121 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E296925D1B16B00868121 /* FloatingButton.swift */; };
+		900E296B25D1B16B00868121 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E296925D1B16B00868121 /* FloatingButton.swift */; };
+		900E296F25D1B88B00868121 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E296E25D1B88B00868121 /* DetailView.swift */; };
+		900E297025D1B88B00868121 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E296E25D1B88B00868121 /* DetailView.swift */; };
+		900E297425D1B92300868121 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E297325D1B92300868121 /* ItemRow.swift */; };
+		900E297525D1B92300868121 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900E297325D1B92300868121 /* ItemRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		900E292625D1A5FE00868121 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		900E292725D1A5FE00868121 /* MedicallyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicallyApp.swift; sourceTree = "<group>"; };
+		900E292825D1A5FE00868121 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		900E292925D1A5FE00868121 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		900E292A25D1A5FF00868121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		900E292F25D1A5FF00868121 /* Medically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medically.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		900E293225D1A5FF00868121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900E293725D1A5FF00868121 /* Medically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medically.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		900E293925D1A5FF00868121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900E293A25D1A5FF00868121 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		900E295125D1A68700868121 /* AddNewDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewDataView.swift; sourceTree = "<group>"; };
+		900E295625D1A6BD00868121 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelData.swift; path = Shared/View/ModelData.swift; sourceTree = SOURCE_ROOT; };
+		900E296225D1ABFF00868121 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		900E296925D1B16B00868121 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FloatingButton.swift; path = Shared/View/FloatingButton.swift; sourceTree = SOURCE_ROOT; };
+		900E296E25D1B88B00868121 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = Shared/View/DetailView.swift; sourceTree = SOURCE_ROOT; };
+		900E297325D1B92300868121 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemRow.swift; path = Shared/View/ItemRow.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900E292C25D1A5FF00868121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900E293425D1A5FF00868121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900E291F25D1A5FD00868121 = {
+			isa = PBXGroup;
+			children = (
+				900E292425D1A5FE00868121 /* Shared */,
+				900E293125D1A5FF00868121 /* iOS */,
+				900E293825D1A5FF00868121 /* macOS */,
+				900E293025D1A5FF00868121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900E292425D1A5FE00868121 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				900E292725D1A5FE00868121 /* MedicallyApp.swift */,
+				900E294F25D1A65900868121 /* View */,
+				900E295025D1A67200868121 /* Model */,
+				900E296125D1ABCB00868121 /* Helper */,
+				900E292A25D1A5FF00868121 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		900E293025D1A5FF00868121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900E292F25D1A5FF00868121 /* Medically.app */,
+				900E293725D1A5FF00868121 /* Medically.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900E293125D1A5FF00868121 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				900E293225D1A5FF00868121 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		900E293825D1A5FF00868121 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				900E293925D1A5FF00868121 /* Info.plist */,
+				900E293A25D1A5FF00868121 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		900E294F25D1A65900868121 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				900E292825D1A5FE00868121 /* ContentView.swift */,
+				900E295125D1A68700868121 /* AddNewDataView.swift */,
+				900E296E25D1B88B00868121 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		900E295025D1A67200868121 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				900E295625D1A6BD00868121 /* ModelData.swift */,
+				900E292925D1A5FE00868121 /* Persistence.swift */,
+				900E292525D1A5FE00868121 /* Medically.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		900E296125D1ABCB00868121 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				900E297325D1B92300868121 /* ItemRow.swift */,
+				900E296925D1B16B00868121 /* FloatingButton.swift */,
+				900E296225D1ABFF00868121 /* ImagePicker.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900E292E25D1A5FF00868121 /* Medically (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900E294725D1A5FF00868121 /* Build configuration list for PBXNativeTarget "Medically (iOS)" */;
+			buildPhases = (
+				900E292B25D1A5FF00868121 /* Sources */,
+				900E292C25D1A5FF00868121 /* Frameworks */,
+				900E292D25D1A5FF00868121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medically (iOS)";
+			productName = "Medically (iOS)";
+			productReference = 900E292F25D1A5FF00868121 /* Medically.app */;
+			productType = "com.apple.product-type.application";
+		};
+		900E293625D1A5FF00868121 /* Medically (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900E294A25D1A5FF00868121 /* Build configuration list for PBXNativeTarget "Medically (macOS)" */;
+			buildPhases = (
+				900E293325D1A5FF00868121 /* Sources */,
+				900E293425D1A5FF00868121 /* Frameworks */,
+				900E293525D1A5FF00868121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medically (macOS)";
+			productName = "Medically (macOS)";
+			productReference = 900E293725D1A5FF00868121 /* Medically.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900E292025D1A5FD00868121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					900E292E25D1A5FF00868121 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					900E293625D1A5FF00868121 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 900E292325D1A5FD00868121 /* Build configuration list for PBXProject "Medically" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900E291F25D1A5FD00868121;
+			productRefGroup = 900E293025D1A5FF00868121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900E292E25D1A5FF00868121 /* Medically (iOS) */,
+				900E293625D1A5FF00868121 /* Medically (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900E292D25D1A5FF00868121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900E294325D1A5FF00868121 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900E293525D1A5FF00868121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900E294425D1A5FF00868121 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900E292B25D1A5FF00868121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900E293D25D1A5FF00868121 /* MedicallyApp.swift in Sources */,
+				900E296F25D1B88B00868121 /* DetailView.swift in Sources */,
+				900E294125D1A5FF00868121 /* Persistence.swift in Sources */,
+				900E293B25D1A5FF00868121 /* Medically.xcdatamodeld in Sources */,
+				900E296325D1ABFF00868121 /* ImagePicker.swift in Sources */,
+				900E293F25D1A5FF00868121 /* ContentView.swift in Sources */,
+				900E295225D1A68700868121 /* AddNewDataView.swift in Sources */,
+				900E297425D1B92300868121 /* ItemRow.swift in Sources */,
+				900E295725D1A6BD00868121 /* ModelData.swift in Sources */,
+				900E296A25D1B16B00868121 /* FloatingButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900E293325D1A5FF00868121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900E293E25D1A5FF00868121 /* MedicallyApp.swift in Sources */,
+				900E297025D1B88B00868121 /* DetailView.swift in Sources */,
+				900E294225D1A5FF00868121 /* Persistence.swift in Sources */,
+				900E293C25D1A5FF00868121 /* Medically.xcdatamodeld in Sources */,
+				900E296425D1ABFF00868121 /* ImagePicker.swift in Sources */,
+				900E294025D1A5FF00868121 /* ContentView.swift in Sources */,
+				900E295325D1A68700868121 /* AddNewDataView.swift in Sources */,
+				900E297525D1B92300868121 /* ItemRow.swift in Sources */,
+				900E295825D1A6BD00868121 /* ModelData.swift in Sources */,
+				900E296B25D1B16B00868121 /* FloatingButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		900E294525D1A5FF00868121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		900E294625D1A5FF00868121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		900E294825D1A5FF00868121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536D73N2K4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesley.Medically;
+				PRODUCT_NAME = Medically;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		900E294925D1A5FF00868121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 536D73N2K4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesley.Medically;
+				PRODUCT_NAME = Medically;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900E294B25D1A5FF00868121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 536D73N2K4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesley.Medically;
+				PRODUCT_NAME = Medically;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		900E294C25D1A5FF00868121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 536D73N2K4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesley.Medically;
+				PRODUCT_NAME = Medically;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900E292325D1A5FD00868121 /* Build configuration list for PBXProject "Medically" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900E294525D1A5FF00868121 /* Debug */,
+				900E294625D1A5FF00868121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900E294725D1A5FF00868121 /* Build configuration list for PBXNativeTarget "Medically (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900E294825D1A5FF00868121 /* Debug */,
+				900E294925D1A5FF00868121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900E294A25D1A5FF00868121 /* Build configuration list for PBXNativeTarget "Medically (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900E294B25D1A5FF00868121 /* Debug */,
+				900E294C25D1A5FF00868121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		900E292525D1A5FE00868121 /* Medically.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				900E292625D1A5FE00868121 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 900E292625D1A5FE00868121 /* Shared.xcdatamodel */;
+			path = Medically.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 900E292025D1A5FD00868121 /* Project object */;
+}

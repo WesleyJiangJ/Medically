@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D64" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Items" representedClassName="Items" syncable="YES" codeGenerationType="class">
+        <attribute name="frecuenciaIntPicker" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hora" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="horasSumadas" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="horaString" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="indexFrecuencia" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="indexTipo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="medicina" optional="YES" attributeType="String"/>
+        <attribute name="notificationState" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="pickerFrecuencia" optional="YES" attributeType="String"/>
+        <attribute name="pickerTipo" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Items" positionX="-63" positionY="-18" width="128" height="194"/>
+    </elements>
+</model>
